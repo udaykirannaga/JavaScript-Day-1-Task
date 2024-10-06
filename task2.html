@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+
+        // Comparision operators 
+        //  == operator
+        var a = "hello";
+        var b = "hello";
+        console.log(a==b);  //true
+        //=== operator
+        console.log(a===b); //true
+        var a = 10;
+        var b = 10;
+        console.log(a==b);  //true
+        //!= operator 
+        console.log(a!=b); //false
+        //!== operator 
+        console.log(a!==b); //false
+        // < > <= >= operator
+        var a = 20;
+        var b = 10;
+        console.log(a<b); //false
+        console.log(a<=b); //false
+        console.log(a>b); //true
+        console.log(a>=b); //true
+       
+
+
+
+        // Ternary operator to determine if a number is even or odd 
+
+        var a = +prompt("Enter Your Number :");
+
+        // condition ? expressiontrue:expressionfalse;
+
+        var b = (a % 2 == 0) ? "It is an even number" : "Not an even number";
+        console.log(b);
+
+        // Ternary operator to determine if a number is even or odd 
+
+
+        var c = +prompt("Enter Your Age :");
+
+        // condition ? expressiontrue:expressionfalse;
+
+        var d = (c <= 18) ? "You are Minor" : "You Are Adult";
+        console.log(d);
+
+
+
+    </script>
+</body>
+
+</html>
